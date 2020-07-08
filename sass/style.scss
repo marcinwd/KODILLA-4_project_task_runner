@@ -28,7 +28,7 @@ $font-text: 'Roboto Slab', serif;
     padding: 0 230px;
 }
 .title {
-    border: 1px dashed red;
+    /*border: 1px dashed red;*/
     margin: auto 0 80px;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,22 @@ $font-text: 'Roboto Slab', serif;
     font-family: $font-header-desc;
     font-size: 16px;
     margin: auto;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    .box-title {
+        margin: auto;
+        color: #333333;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.45px;
+    }
+    .box-text {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 /*NAVIGATION*/
@@ -119,16 +135,31 @@ $font-text: 'Roboto Slab', serif;
 /*SERVICES*/
 .services {
     margin-bottom: 120px;
-    .box {
-        display: flex;
-        flex-direction: column;
-        .box-title{
-            margin: auto;
-        }
+}
+.services-box-title {
+        line-height: 75px;
     }
+.services-box-text {
+    color: $colo-five-text-desc;
+    font-family: $font-text;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+}
+.fas {
+    margin: auto;
+    color: $color-one;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid $color-one;
 }
 
+
 /*PORTFOLIO*/
+.portfolio {
+    background-color: $color-two;
+}
 
 /*FOOTER*/
 .wrapper {
