@@ -19,6 +19,36 @@
   padding: 0 230px;
 }
 
+.title {
+  border: 1px dashed red;
+  margin: auto 0 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-title {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: auto;
+}
+
+.section-subtitle {
+  color: #777777;
+  font-family: "Gelasio", serif;
+  font-size: 16px;
+  margin: auto;
+}
+
 /*NAVIGATION*/
 /*SPLASH*/
 .splash {
@@ -30,6 +60,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 120px;
 }
 
 .splash::after {
@@ -97,6 +128,24 @@
 }
 
 /*SERVICES*/
+.services {
+  margin-bottom: 120px;
+}
+
+.services .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services .box .box-title {
+  margin: auto;
+}
+
 /*PORTFOLIO*/
 /*FOOTER*/
 .wrapper {

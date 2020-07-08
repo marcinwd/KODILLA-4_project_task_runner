@@ -3,6 +3,7 @@ $color-one: #fed136;
 $color-two: #f7f7f7;
 $color-three-text: #ffffff;
 $color-four-text: #222222;
+$colo-five-text-desc: #777777;
 
 $font-logo: 'Dancing Script', cursive;
 $font-header-desc: 'Gelasio', serif;
@@ -26,6 +27,28 @@ $font-text: 'Roboto Slab', serif;
     max-width: 1400px;
     padding: 0 230px;
 }
+.title {
+    border: 1px dashed red;
+    margin: auto 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+.section-title {
+    color: $color-four-text;
+    font-family: $font-header;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: auto;
+}
+.section-subtitle {
+    color: $colo-five-text-desc;
+    font-family: $font-header-desc;
+    font-size: 16px;
+    margin: auto;
+}
 
 /*NAVIGATION*/
 
@@ -33,11 +56,11 @@ $font-text: 'Roboto Slab', serif;
 .splash {
     height: 100vh;
     background-image: url(https://i.ibb.co/Nx57vC0/Background-Image.png);
-    
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
+    margin-bottom: 120px;
     &::after {
         content:'';
         background-color: #000000;
@@ -94,6 +117,16 @@ $font-text: 'Roboto Slab', serif;
 
 
 /*SERVICES*/
+.services {
+    margin-bottom: 120px;
+    .box {
+        display: flex;
+        flex-direction: column;
+        .box-title{
+            margin: auto;
+        }
+    }
+}
 
 /*PORTFOLIO*/
 
