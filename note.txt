@@ -1,3 +1,4 @@
+IMAGES
 https://i.ibb.co/Nx57vC0/Background-Image.png
 https://i.ibb.co/z4qWDGr/Image.png
 https://i.ibb.co/NjkDnHJ/porfolio5.png
@@ -6,3 +7,27 @@ https://i.ibb.co/v4BFxqY/portfolio2.png
 https://i.ibb.co/Wp00RQ3/portfolio3.png
 https://i.ibb.co/Xj2b2Zk/portfolio4.png
 https://i.ibb.co/LSvd2jf/portfolio6.png
+
+WSPOLNE CECHY
+    SERVICES box-title
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+
+    PORTFOLIO box-title
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    /* Text style for "E, bony &" */
+    letter-spacing: -0.45px
+
+    =======
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.45px;

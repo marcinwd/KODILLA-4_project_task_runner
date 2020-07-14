@@ -1,6 +1,6 @@
 /*VARIABLES*/
 $color-one: #fed136;
-$color-two: #f7f7f7;
+$color-two: #f0e6e6;
 $color-three-text: #ffffff;
 $color-four-text: #222222;
 $colo-five-text-desc: #777777;
@@ -22,13 +22,12 @@ $font-text: 'Roboto Slab', serif;
     
 }
 .container {
-    border: 2px solid blue;
     margin: 0 auto;
     max-width: 1400px;
     padding: 0 230px;
 }
 .title {
-    /*border: 1px dashed red;*/
+    border: 1px dashed red;
     margin: auto 0 80px;
     display: flex;
     flex-direction: column;
@@ -52,21 +51,66 @@ $font-text: 'Roboto Slab', serif;
 .box {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
+    
+    background-color: $color-three-text;
+    
+
     .box-title {
-        margin: auto;
+        margin: 29px auto 0;
         color: #333333;
         font-family: Montserrat;
         font-size: 18px;
         font-weight: 700;
         letter-spacing: -0.45px;
+        
     }
     .box-text {
         margin: auto;
         text-align: center;
+        font-family: $font-header-desc;
+        font-size: 14px;
+        font-style: italic;
+        color: #737373;
     }
 }
 
 /*NAVIGATION*/
+.navigation {
+    position: fixed;
+    
+    transform: translateX(35%);;
+    padding: 50px 0;
+    
+    .logo {
+        color: $color-one;
+        font-family: $font-logo;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 41px;
+        color: $color-one;
+        letter-spacing: 1.3px;
+    }
+    .navibar {
+        ul {
+            list-style-type: none;
+            display: flex;
+        }
+        li {
+            display: inline-block;
+            margin-right: 40px;
+        }
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $font-header;
+            color: $color-three-text;
+        }
+    }
+}
+
 
 /*SPLASH*/
 .splash {
@@ -158,8 +202,10 @@ $font-text: 'Roboto Slab', serif;
 
 /*PORTFOLIO*/
 .portfolio {
-    background-color: $color-two;
+    background-color: #f7f7f7;
 }
+
+
 
 /*FOOTER*/
 .wrapper {
