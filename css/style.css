@@ -19,7 +19,6 @@
 }
 
 .title {
-  border: 1px dashed red;
   margin: auto 0 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,10 +241,6 @@
   font-weight: 400;
   line-height: 22px;
   letter-spacing: -0.35px;
-}
-
-.footer {
-  border: 1px dashed red;
 }
 
 .footer span {
